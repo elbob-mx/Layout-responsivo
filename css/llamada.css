@@ -1,0 +1,28 @@
+.llamada {
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2.5rem;
+  padding-top: 12.25rem;
+  text-align: center;
+}
+
+.llamada__titulo {
+  font-family: "Montserrat", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.llamada__texto {
+  font-size: 1.25rem;
+  line-height: normal;
+  margin: 0 auto 2.5rem;
+}
+
+.llamada__boton {
+  width: 100%;
+}
