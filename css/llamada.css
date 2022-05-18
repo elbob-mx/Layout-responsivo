@@ -1,7 +1,7 @@
 .llamada {
   align-items: center;
   background-color: black;
-  color: #ffffff;
+  color: var(--texto-llamada);
   display: flex;
   flex-direction: column;
   padding-bottom: 2.5rem;
@@ -10,7 +10,7 @@
 }
 
 .llamada__titulo {
-  font-family: "Montserrat", serif;
+  font-family: var(--montserrat);
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;

@@ -1,9 +1,9 @@
 .head {
   align-items: center;
-  background-color: black;
-  border-bottom: 1px solid dimgray;
+  background-color: var(--background-negro);
+  border-bottom: 1px solid var(--border-bottom);
   box-sizing: border-box;
-  color: #ffffff;
+  color: var(--menu-a);
   display: flex;
   flex-direction: column;
   padding-bottom: 0.75rem;
@@ -23,7 +23,7 @@
 .head__enlace {
   display: inline-block;
   font-size: 1.1rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.7rem;
   margin-left: 0.7rem;
   margin-right: 0.7rem;
 }
