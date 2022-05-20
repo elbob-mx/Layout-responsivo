@@ -21,8 +21,19 @@
 }
 
 .contacto__boton {
-    color: var(--boton-rojo);
-    border-color: var(--boton-rojo);
-    margin-top: 1.25rem;
+    font-family: var(--source-sans-pro);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--boton-contacto-rojo);
+    border-color: var(--boton-contacto-rojo);
+    width: 100%;
 
+}
+
+.contacto__p {
+    font-family: var(--source-sans-pro);
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 2rem;
 }

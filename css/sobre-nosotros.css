@@ -15,7 +15,7 @@
 
 .sobre_nosotros__texto {
     line-height: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .sobre_nosotros__plataformas {
@@ -29,3 +29,9 @@
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
 }
+
+/* .sobre_nosotros__contenido {
+    font-family: var(--source-sans-pro);
+    font-size: 1.2rem;
+    line-height: normal;
+} */
