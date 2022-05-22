@@ -39,14 +39,13 @@
 
 @media screen and (min-width: 1024px) {
   .llamada {
-      background-image: url(../img/bg-intro.jpg);
-      background-size: cover;
-
-      padding-top: 8.25rem;
+    background-image: url(../img/bg-intro.jpg);
+    background-size: cover;
+    padding-top: 8.25rem;
   }
 
   .llamada__titulo {
-      font-size: 3.25rem;
-      margin-bottom: 2rem;
+    font-size: 3.25rem;
+    margin-bottom: 2rem;
   }
 }
