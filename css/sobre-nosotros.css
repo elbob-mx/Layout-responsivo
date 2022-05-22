@@ -30,8 +30,23 @@
     font-weight: 700;
 }
 
-/* .sobre_nosotros__contenido {
-    font-family: var(--source-sans-pro);
-    font-size: 1.2rem;
-    line-height: normal;
-} */
+@media screen and (min-width: 1024px) {
+    .sobre-nosotros {
+        display: flex;
+    }
+    .sobre-nosotros__contenido {
+        margin-right: 3rem;
+    }
+    .sobre-nosotros__titulo {
+        text-align: left;
+    }
+    .sobre-nosotros__texto--division {
+        border-bottom: 1px solid var(--cinza-medio);
+
+        padding-bottom: 1.5rem;
+    }
+    .sobre-nosotros__imagen {
+        display: block;
+    }
+}
+

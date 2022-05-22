@@ -27,3 +27,11 @@
   margin-left: 0.7rem;
   margin-right: 0.7rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .head {
+      flex-direction: row;
+      justify-content: space-between;
+      border: none;
+  }
+}

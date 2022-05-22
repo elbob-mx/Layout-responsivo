@@ -31,7 +31,7 @@
     color: var(--background-blanco);
     font-family: var(--source-sans-pro);
     text-align: center;
-    line-height: 3;
+    line-height: 2;
 }
 
 
@@ -39,4 +39,16 @@
     display: inline-block;
 
     margin: 0 .5rem .7rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__navegacion {
+        text-align: left;
+        min-width: 600px;
+    }
 }
