@@ -77,9 +77,11 @@
     }
 
     .institucional__video {
+        display: flex;
+        flex-direction: row;
         align-self: flex-end;
 
-        width: 375px;
+        width: 100vw;
     }
 
     .institucional__contacto-email {
@@ -93,7 +95,7 @@
     }
 
     .institucional__video {
-        width: 100%;
+        width: 100vw;
         margin-bottom: 2rem;
     }
 }
